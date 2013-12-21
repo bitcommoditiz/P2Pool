@@ -1,4 +1,5 @@
 *************   This is a modified version of the original forrestv p2pool ****************
+-------------------------
 * handle all bitcommoditiz
 * some minor bugs fix
 * merged with nice web interface by hardcpp
@@ -76,7 +77,6 @@ Windows:
 
 
 Donations towards further development (donation in bitcoin to the original author forrestv):
--------------------------
     1HNeqi3pJRNvXybNX4FKzZgYJsdTSqJTbk
 
 Official wiki :
