@@ -62,6 +62,7 @@ Generic:
 * Python >=2.6
 * Twisted >=10.0.0
 * python-argparse (for Python =2.6)
+* build with scrypt support (see bellow)
 
 Linux:
 * sudo apt-get install python-zope.interface python-twisted python-twisted-web
