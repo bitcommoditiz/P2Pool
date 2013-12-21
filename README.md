@@ -1,7 +1,7 @@
 *************   This is a modified version of the original forrestv p2pool ****************
-handle all bitcommoditiz
-some minor bugs fix
-merged with nice web interface by hardcpp
+* handle all bitcommoditiz
+* some minor bugs fix
+* merged with nice web interface by hardcpp
 
 Thanks to hardcpp and forrestv for their original work available at:
 https://github.com/forrestv/p2pool
@@ -30,17 +30,17 @@ Example (your miner is minerd and you are mining on a Goldz pool):
 
 Here are the values for the various bitcommoditiz worker port.
 
-	SYMBOL     WORKER_PORT
-	xauz       15500
-	xpdz       15502
-	xagz       15504
-	xptz       15506
-	clz        15508
-	wz         15510
-	zcz        15512
-	ctz        15514
-	kcz        15516
-	ccz        15518
+	NAME          SYMBOL     WORKER_PORT   UNIT
+	Goldz          xauz       15500         OZz (Ouncez)
+	Palladiumz     xpdz       15502         OZz (Ouncez)
+	Silverz        xagz       15504         OZz (Ouncez)
+	Platiniumz     xptz       15506         OZz (Ouncez)
+	Crude Oilz     clz        15508         bblz (Barrelz)
+	Wheatz         wz         15510         Tz (Tonz)
+	Cornz          zcz        15512         Tz (Tonz)
+	Cottonz        ctz        15514         lbz (Poundz)
+	Coffeez        kcz        15516         lbz (Poundz)
+	Cocoaz         ccz        15518         Tz  (Tonz)
 
 
 
