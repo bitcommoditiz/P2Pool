@@ -13,6 +13,7 @@ Running P2Pool:
 Run P2Pool with the "--net xxx" option, where xxx is the bitcommoditiz you are P2pooling
 
 Example :
+
 	python run_p2pool.py --net xauz --no-bugreport --address GJHJhvh677OOJHHGGF --disable-upnp
 
 Run for additional options.
@@ -23,6 +24,7 @@ Once p2pool is running point your miner to 127.0.0.1 on the miner port of the bi
 Provide your bitcommoditiz adress as username to get your reward (no account needed).
 
 Example (your miner is minerd and you are mining on a Goldz pool):
+
 	/minerd --no-stratum --url http://127.0.0.1:15500/ --user GKLkjBGFRh123456
 
 
