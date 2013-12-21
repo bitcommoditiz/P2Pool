@@ -1,4 +1,4 @@
-*************   This is a modified version of the original forrestv p2pool ****************
+This is a modified version of the original forrestv p2pool
 -------------------------
 * handle all bitcommoditiz
 * some minor bugs fix
