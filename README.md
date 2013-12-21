@@ -31,17 +31,17 @@ Example (your miner is minerd and you are mining on a Goldz pool):
 
 Here are the values for the various bitcommoditiz worker port.
 
-	NAME          SYMBOL     WORKER_PORT   UNIT
-	Goldz          xauz       15500         OZz (Ouncez)
-	Palladiumz     xpdz       15502         OZz (Ouncez)
-	Silverz        xagz       15504         OZz (Ouncez)
-	Platiniumz     xptz       15506         OZz (Ouncez)
-	Crude Oilz     clz        15508         bblz (Barrelz)
-	Wheatz         wz         15510         Tz (Tonz)
-	Cornz          zcz        15512         Tz (Tonz)
-	Cottonz        ctz        15514         lbz (Poundz)
-	Coffeez        kcz        15516         lbz (Poundz)
-	Cocoaz         ccz        15518         Tz  (Tonz)
+	NAME          SYMBOL     WORKER_PORT   REWARD   UNIT
+	Goldz          xauz       15500           1     OZz (Ouncez)
+	Palladiumz     xpdz       15502           1     OZz (Ouncez)
+	Silverz        xagz       15504           1     OZz (Ouncez)
+	Platiniumz     xptz       15506           1     OZz (Ouncez)
+	Crude Oilz     clz        15508           1     bblz (Barrelz)
+	Wheatz         wz         15510           1     Tz (Tonz)
+	Cornz          zcz        15512           1     Tz (Tonz)
+	Cottonz        ctz        15514           1     lbz (Poundz)
+	Coffeez        kcz        15516           1     lbz (Poundz)
+	Cocoaz         ccz        15518           1     Tz  (Tonz)
 
 
 
