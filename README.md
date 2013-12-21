@@ -1,7 +1,8 @@
 *************   This is a modified version of the original forrestv p2pool ****************
---> handle all bitcommoditiz
---> some minor bugs fix
---> merged with nice web interface by hardcpp
+
+handle all bitcommoditiz
+some minor bugs fix
+merged with nice web interface by hardcpp
 
 Thanks to hardcpp and forrestv for their original work available at:
 https://github.com/forrestv/p2pool
