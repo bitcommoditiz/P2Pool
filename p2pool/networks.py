@@ -27,6 +27,44 @@ nets = dict(
         VERSION_CHECK=lambda v: True,
         VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
     ),
+        xpdz=math.Object(
+        PARENT=networks.nets['xpdz'],
+        SHARE_PERIOD=15, # seconds
+        CHAIN_LENGTH=24*60*60//10, # shares
+        REAL_CHAIN_LENGTH=24*60*60//10, # shares
+        TARGET_LOOKBEHIND=200, # shares
+        SPREAD=3, # blocks
+        IDENTIFIER='e037d5b8c6923413'.decode('hex'),#free +1
+        PREFIX='7208c1a53ef629b3'.decode('hex'),#free +1
+        P2P_PORT=15503,#le port P2P de P2pool : free +1
+        MIN_TARGET=0,
+        MAX_TARGET=2**256//2**20 - 1,
+        PERSIST=True,
+        WORKER_PORT=15502,
+        BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
+        ANNOUNCE_CHANNEL='#p2pool-ltc',
+        VERSION_CHECK=lambda v: True,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+    ),
+        xagz=math.Object(
+        PARENT=networks.nets['xagz'],
+        SHARE_PERIOD=15, # seconds
+        CHAIN_LENGTH=24*60*60//10, # shares
+        REAL_CHAIN_LENGTH=24*60*60//10, # shares
+        TARGET_LOOKBEHIND=200, # shares
+        SPREAD=3, # blocks
+        IDENTIFIER='e037d5b8c6923414'.decode('hex'),#free +1
+        PREFIX='7208c1a53ef629b4'.decode('hex'),#free +1
+        P2P_PORT=15505,#le port P2P de P2pool : free +1
+        MIN_TARGET=0,
+        MAX_TARGET=2**256//2**20 - 1,
+        PERSIST=True,
+        WORKER_PORT=15504,
+        BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
+        ANNOUNCE_CHANNEL='#p2pool-ltc',
+        VERSION_CHECK=lambda v: True,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+    ),
         xptz=math.Object(
         PARENT=networks.nets['xptz'],
         SHARE_PERIOD=15, # seconds
@@ -46,7 +84,120 @@ nets = dict(
         VERSION_CHECK=lambda v: True,
         VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
     ),
-
+        clz=math.Object(
+        PARENT=networks.nets['clz'],
+        SHARE_PERIOD=15, # seconds
+        CHAIN_LENGTH=24*60*60//10, # shares
+        REAL_CHAIN_LENGTH=24*60*60//10, # shares
+        TARGET_LOOKBEHIND=200, # shares
+        SPREAD=3, # blocks
+        IDENTIFIER='e037d5b8c6923415'.decode('hex'),#free +1
+        PREFIX='7208c1a53ef629b5'.decode('hex'),#free +1
+        P2P_PORT=15509,#le port P2P de P2pool : free +1
+        MIN_TARGET=0,
+        MAX_TARGET=2**256//2**20 - 1,
+        PERSIST=True,
+        WORKER_PORT=15508,
+        BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
+        ANNOUNCE_CHANNEL='#p2pool-ltc',
+        VERSION_CHECK=lambda v: True,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+    ),
+        wz=math.Object(
+        PARENT=networks.nets['wz'],
+        SHARE_PERIOD=15, # seconds
+        CHAIN_LENGTH=24*60*60//10, # shares
+        REAL_CHAIN_LENGTH=24*60*60//10, # shares
+        TARGET_LOOKBEHIND=200, # shares
+        SPREAD=3, # blocks
+        IDENTIFIER='e037d5b8c6923416'.decode('hex'),#free +1
+        PREFIX='7208c1a53ef629b6'.decode('hex'),#free +1
+        P2P_PORT=15511,#le port P2P de P2pool : free +1
+        MIN_TARGET=0,
+        MAX_TARGET=2**256//2**20 - 1,
+        PERSIST=True,
+        WORKER_PORT=15510,
+        BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
+        ANNOUNCE_CHANNEL='#p2pool-ltc',
+        VERSION_CHECK=lambda v: True,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+    ),
+        zcz=math.Object(
+        PARENT=networks.nets['zcz'],
+        SHARE_PERIOD=15, # seconds
+        CHAIN_LENGTH=24*60*60//10, # shares
+        REAL_CHAIN_LENGTH=24*60*60//10, # shares
+        TARGET_LOOKBEHIND=200, # shares
+        SPREAD=3, # blocks
+        IDENTIFIER='e037d5b8c6923417'.decode('hex'),#free +1
+        PREFIX='7208c1a53ef629b7'.decode('hex'),#free +1
+        P2P_PORT=15513,#le port P2P de P2pool : free +1
+        MIN_TARGET=0,
+        MAX_TARGET=2**256//2**20 - 1,
+        PERSIST=True,
+        WORKER_PORT=15512,
+        BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
+        ANNOUNCE_CHANNEL='#p2pool-ltc',
+        VERSION_CHECK=lambda v: True,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+    ),
+        ctz=math.Object(
+        PARENT=networks.nets['ctz'],
+        SHARE_PERIOD=15, # seconds
+        CHAIN_LENGTH=24*60*60//10, # shares
+        REAL_CHAIN_LENGTH=24*60*60//10, # shares
+        TARGET_LOOKBEHIND=200, # shares
+        SPREAD=3, # blocks
+        IDENTIFIER='e037d5b8c6923418'.decode('hex'),#free +1
+        PREFIX='7208c1a53ef629b8'.decode('hex'),#free +1
+        P2P_PORT=15515,#le port P2P de P2pool : free +1
+        MIN_TARGET=0,
+        MAX_TARGET=2**256//2**20 - 1,
+        PERSIST=True,
+        WORKER_PORT=15514,
+        BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
+        ANNOUNCE_CHANNEL='#p2pool-ltc',
+        VERSION_CHECK=lambda v: True,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+    ),
+        kcz=math.Object(
+        PARENT=networks.nets['kcz'],
+        SHARE_PERIOD=15, # seconds
+        CHAIN_LENGTH=24*60*60//10, # shares
+        REAL_CHAIN_LENGTH=24*60*60//10, # shares
+        TARGET_LOOKBEHIND=200, # shares
+        SPREAD=3, # blocks
+        IDENTIFIER='e037d5b8c6923419'.decode('hex'),#free +1
+        PREFIX='7208c1a53ef629b9'.decode('hex'),#free +1
+        P2P_PORT=15517,#le port P2P de P2pool : free +1
+        MIN_TARGET=0,
+        MAX_TARGET=2**256//2**20 - 1,
+        PERSIST=True,
+        WORKER_PORT=15516,
+        BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
+        ANNOUNCE_CHANNEL='#p2pool-ltc',
+        VERSION_CHECK=lambda v: True,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+    ),
+        ccz=math.Object(
+        PARENT=networks.nets['ccz'],
+        SHARE_PERIOD=15, # seconds
+        CHAIN_LENGTH=24*60*60//10, # shares
+        REAL_CHAIN_LENGTH=24*60*60//10, # shares
+        TARGET_LOOKBEHIND=200, # shares
+        SPREAD=3, # blocks
+        IDENTIFIER='e037d5b8c692341a'.decode('hex'),#free +1
+        PREFIX='7208c1a53ef629ba'.decode('hex'),#free +1
+        P2P_PORT=15519,#le port P2P de P2pool : free +1
+        MIN_TARGET=0,
+        MAX_TARGET=2**256//2**20 - 1,
+        PERSIST=True,
+        WORKER_PORT=15518,
+        BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
+        ANNOUNCE_CHANNEL='#p2pool-ltc',
+        VERSION_CHECK=lambda v: True,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+    ),
     bitcoin=math.Object(
         PARENT=networks.nets['bitcoin'],
         SHARE_PERIOD=30, # seconds
