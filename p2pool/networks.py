@@ -25,7 +25,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
         xpdz=math.Object(
         PARENT=networks.nets['xpdz'],
@@ -44,7 +44,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
         xagz=math.Object(
         PARENT=networks.nets['xagz'],
@@ -63,7 +63,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
         xptz=math.Object(
         PARENT=networks.nets['xptz'],
@@ -82,7 +82,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
         clz=math.Object(
         PARENT=networks.nets['clz'],
@@ -101,7 +101,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
         wz=math.Object(
         PARENT=networks.nets['wz'],
@@ -120,7 +120,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
         zcz=math.Object(
         PARENT=networks.nets['zcz'],
@@ -139,7 +139,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
         ctz=math.Object(
         PARENT=networks.nets['ctz'],
@@ -158,7 +158,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
         kcz=math.Object(
         PARENT=networks.nets['kcz'],
@@ -177,7 +177,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
         ccz=math.Object(
         PARENT=networks.nets['ccz'],
@@ -196,7 +196,7 @@ nets = dict(
         BOOTSTRAP_ADDRS='seed1.p2pool.bitcommoditiz.org seed2.p2pool.bitcommoditiz.org'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-ltc',
         VERSION_CHECK=lambda v: True,
-        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.5.1!' if v < 80501 else None,
+        VERSION_WARNING=lambda v: 'Upgrade Node to >=0.8.6.2!' if v < 80602 else None,
     ),
     bitcoin=math.Object(
         PARENT=networks.nets['bitcoin'],
