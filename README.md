@@ -46,13 +46,7 @@ Here are the values for the various bitcommoditiz worker port.
 
 
 If you want to operate a public bitcommoditiz pool and get payment for that launch p2pool on a public server with :
-  -f FEE_PERCENTAGE, --fee FEE_PERCENTAGE
-                        charge workers mining to their own address (by
-                        setting their miner's username to a bitcoin address)
-                        this percentage fee to mine on your p2pool instance.
-                        Amount displayed at http://127.0.0.1:WORKER_PORT/fee
-                        (default: 0)
-
+  -f FEE_PERCENTAGE, this charge workers such percentage fee to mine on your p2pool instance. The fee is for you.
 
 
 Requirements:
