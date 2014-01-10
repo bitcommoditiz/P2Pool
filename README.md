@@ -22,9 +22,9 @@ Run for additional options.
     python run_p2pool.py --help
 
 Once p2pool is running point your miner to 127.0.0.1 on the miner port of the bitcommoditiz you want to mine.
-Provide your bitcommoditiz adress as username to get your reward (no account needed).
+Provide your bitcommoditiz address as username to get your reward (no account needed).
 
-Example (your miner is minerd and you are mining on a Goldz pool):
+Example (your miner is minerd and you are mining on your own local Goldz pool):
 
 	/minerd --no-stratum --url http://127.0.0.1:15500/ --user GKLkjBGFRh123456
 
@@ -45,7 +45,7 @@ Here are the values for the various bitcommoditiz worker port.
 
 
 
-If you want to operate a public bitcommoditiz pool and get payment for that launch p2pool with :
+If you want to operate a public bitcommoditiz pool and get payment for that launch p2pool on a public server with :
   -f FEE_PERCENTAGE, --fee FEE_PERCENTAGE
                         charge workers mining to their own address (by
                         setting their miner's username to a bitcoin address)
