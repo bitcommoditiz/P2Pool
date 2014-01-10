@@ -58,7 +58,7 @@ If you want to operate a public bitcommoditiz pool and get payment for that laun
 Requirements:
 -------------------------
 Generic:
-* Bitcommoditiz node >=0.8.5.2
+* Bitcommoditiz node >=0.8.6.3
 * Python >=2.6
 * Twisted >=10.0.0
 * python-argparse (for Python =2.6)
